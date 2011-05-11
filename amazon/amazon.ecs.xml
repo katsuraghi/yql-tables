@@ -161,7 +161,7 @@
     <bindings>        
         <select itemPath="/ItemLookupResponse/Items/Item" produces="XML">
             <urls>
-                <url>http://ecs.amazonaws.jp/onca/xml?</url>
+                <url>http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;Version=2008-08-19</url>
             </urls>
             <inputs>
                 <key id="Operation" type="xs:string" paramType="query" required="false"
